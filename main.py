@@ -1,20 +1,14 @@
-# - - - #
 
-# This program regards The Collatz conjecture, also known as the 3n+1 conjecture.
+import matplotlib.pyplot as plt
 
-# Paul Erdős once said (about the Collatz conjecture):
-# "Mathematics may not be ready for such problems."
+# naming the x axis
+plt.xlabel('x - axis')
+# naming the y axis
+plt.ylabel('y - axis')
 
-# - - - #
+# giving a title to graph
+plt.title('a graph')
 
-# this short program calculates the total stopping time of a given positive integer
-
-# it may also print the hailstone sequence of the given positive integer
-
-# This program assumes that the conjecture is correct and that these sequences always reach 1, no matter which
-# positive integer is chosen to start the sequence.
-
-# - - - #
 
 # get input from user
 num = input("\nplease enter a positive integer:\n\t")
@@ -46,9 +40,12 @@ total_stopping_time = 0
 if (print_hailstone_sequence):
     print("\nthe hailstone sequence:\n")
 
+hailstone_sequence = []
+
 while num != 1:
     if (print_hailstone_sequence):
         print("\t" + str(int(num)))
+    hailstone_sequence.append(num)
     if num % 2 == 0:  # n is even
         num /= 2  # n / 2
     else:  # n is odd
@@ -61,3 +58,11 @@ if (print_hailstone_sequence):
 print()
 
 print("The total stopping time of the number you entered is " + str(total_stopping_time) + ".")
+
+# plt.plot(hailstone_sequence, color='green', linestyle='dashed', linewidth = 3,
+#           marker='o', markerfacecolor='blue', markersize=12)
+
+plt.plot(hailstone_sequence)
+
+# function to show the plot
+plt.show()
