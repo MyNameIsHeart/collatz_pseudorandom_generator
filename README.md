@@ -1,9 +1,8 @@
-# collatz_pseudorandom_generator
-
-## 
+# collatz_pseudorandom_generator 🎲
 
 This small project is a fun exploration of the **Collatz conjecture** (*) and its potential applications in computer science - specifically **pseudorandom number generation**.
 
+##
 
 It compares a 64-bit Linear Congruential Generator (LCG) against a Collatz-based variant that incorporates hailstone-sequence metrics to add nonlinear scrambling.
 
