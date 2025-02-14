@@ -10,7 +10,7 @@ def collatz_sequence(n):
 
     """
     Compute Collatz-based pseudo-random metrics:
-        - steps: total stopping time
+        - stopping_time: total stopping time
         - sum_val: sum of the hailstone sequence values (excluding the final 1 based on snippet logic)
         - max_val: maximum value reached in the sequence
     Also returns the full sequence for plotting/animation purposes.
@@ -78,7 +78,7 @@ fig, ax = plt.subplots()
 x_data, y_data = [], []
 line, = ax.plot([], [], marker='o', linestyle='-', color='b')
 
-ax.set_xlabel('Steps')
+ax.set_xlabel('Stopping-time')
 ax.set_ylabel('Value')
 ax.set_title(f'Hailstone Sequence for {num}')
 ax.grid(True)

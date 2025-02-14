@@ -1,5 +1,9 @@
-# The-Collatz-conjecture
-### * Work In Progress *
-A small program to represent the Hailstone sequence of a given integer using a graph (while also calculating the total stopping time)
+# collatz_pseudorandom_generator
+
+This small project is a fun exploration of the Collatz conjecture (*) and its potential applications in computer science - specifically pseudorandom number generation.
 <br>
-(This program regards The Collatz conjecture, also known as the 3n+1 conjecture)
+It compares a 64-bit Linear Congruential Generator (LCG) against a Collatz-based variant that incorporates hailstone-sequence metrics to add nonlinear scrambling.
+<br>
+Randomness quality is assessed using Dieharder, and a separate script animates the Collatz (hailstone) sequence for a user-provided integer, providing a clear visualization of the stopping-time, maximum value reached, and total sum.
+
+(*) The Collatz conjecture, also known as the 3n+1 conjecture
