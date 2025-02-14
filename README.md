@@ -1,6 +1,6 @@
 # collatz_pseudorandom_generator 🎲
 \
-This small project is a fun exploration of the **Collatz conjecture**[^1] and its potential applications in computer science - specifically **pseudorandom number generation**.
+This small project is a fun exploration of the **Collatz conjecture[^1]** and its potential applications in computer science - specifically **pseudorandom number generation**.
 
 ##
 \
