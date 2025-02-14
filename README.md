@@ -12,8 +12,6 @@ Randomness quality is assessed using Dieharder, and a separate script animates t
 
 ##
 \
-Because the project focuses on exploration rather than performance, efficiency wasn't a consideration.  
+Since the project focuses on exploration rather than performance, efficiency wasn't a consideration.  
 
-##
-\
-[^1] The Collatz conjecture, also known as the 3n+1 conjecture
+[^1]: [The Collatz conjecture](https://youtu.be/094y1Z2wpJg), also known as the 3n+1 conjecture
